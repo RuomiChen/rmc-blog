@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://rmc-cf.github.io/rmc-blog/sitemap.xml
