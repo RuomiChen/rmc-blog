@@ -4,7 +4,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://rmc-cf.github.io/",
+  hostname: "https://ruomichen.github.io/",
   favicon: "https://avatars.githubusercontent.com/u/192405856?v=4",
   author: {
     name: "Rmc",
