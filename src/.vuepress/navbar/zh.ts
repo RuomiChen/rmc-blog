@@ -18,5 +18,4 @@ export const zhNavbar = navbar([
       },
     ],
   },
-  
 ]);

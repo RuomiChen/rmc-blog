@@ -5,13 +5,13 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://ruomichen.github.io/",
-  favicon: "https://avatars.githubusercontent.com/u/192405856?v=4",
+  favicon: "https://avatars.githubusercontent.com/u/222743971?v=4&size=64",
   author: {
-    name: "Rmc",
+    name: "RuomiChen",
     url: "https://mister-hope.com",
   },
 
-  logo: "https://avatars.githubusercontent.com/u/192405856?v=4",
+  logo: "https://avatars.githubusercontent.com/u/222743971?v=4&size=64",
 
   repo: "RuomiChen/rmc-blog",
 
@@ -61,7 +61,7 @@ export default hopeTheme({
     "/": {
       // navbar
       navbar: enNavbar,
-      author: 'Rmc',
+      author: 'RuomiChen',
       // sidebar
       sidebar: enSidebar,
 

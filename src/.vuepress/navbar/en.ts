@@ -9,10 +9,23 @@ export const enNavbar = navbar([
     children: [
       {
         text: "technology",
-        icon: "pen-to-square",
         prefix: "technology/",
         children: [
-         "1" 
+          "1"
+        ],
+      },
+    ],
+  },
+  {
+    text: "Lifes",
+    icon: "fa-hand-spock",
+    prefix: "/life/",
+    children: [
+      {
+        text: "technology",
+        prefix: "",
+        children: [
+          "1", "2"
         ],
       },
     ],
