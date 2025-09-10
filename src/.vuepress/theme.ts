@@ -30,7 +30,7 @@ export default hopeTheme({
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
       Gitee: "https://gitee.com/cfyyds",
-      GitHub: "https://github.com/rmc-cf",
+      GitHub: "https://github.com/RuomiChen",
       // Gitlab: "https://example.com",
       Gmail: "mailto:rmcyyds@gmail.com",
       // Instagram: "https://example.com",

@@ -18,4 +18,18 @@ export const zhNavbar = navbar([
       },
     ],
   },
+  {
+    text: "生活",
+    icon: "fa-hand-spock",
+    prefix: "/life/",
+    children: [
+      {
+        text: "",
+        prefix: "",
+        children: [
+          "1", "2"
+        ],
+      },
+    ],
+  },
 ]);

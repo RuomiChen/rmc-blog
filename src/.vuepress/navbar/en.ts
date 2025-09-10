@@ -22,7 +22,7 @@ export const enNavbar = navbar([
     prefix: "/life/",
     children: [
       {
-        text: "technology",
+        text: "",
         prefix: "",
         children: [
           "1", "2"
