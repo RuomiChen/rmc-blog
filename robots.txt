@@ -1,4 +1,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://ruomichen.github.io/rmc-blog/sitemap.xml
+Sitemap: https://ruomichen.github.io/sitemap.xml
