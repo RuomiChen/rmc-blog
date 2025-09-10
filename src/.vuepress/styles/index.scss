@@ -1,5 +1,25 @@
 // place your custom styles here
 // 头像圆角
-.vp-blog-hero-image{
+.vp-blog-hero-image {
        border-radius: 100%;
+}
+
+// 导航
+.vp-nav-links {
+       gap: 30px;
+}
+
+.vp-nav-item {
+       margin: 0;
+}
+
+.vp-dropdown-title {
+       padding: 0;
+}
+.vp-icon{
+     margin-right: 20px;
+}
+.vp-dropdown {
+    inset-inline-start:0;  
+    inset-inline-end:initial;
 }

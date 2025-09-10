@@ -20,7 +20,7 @@ export const zhNavbar = navbar([
   },
   {
     text: "生活",
-    icon: "fa-hand-spock",
+    icon: "mdi:one-up",
     prefix: "/life/",
     children: [
       {
@@ -28,6 +28,27 @@ export const zhNavbar = navbar([
         prefix: "",
         children: [
           "1", "2"
+        ],
+      },
+    ],
+  },{
+    text: "乐趣",
+    icon: "tdesign:joyful",
+    prefix: "",
+    children: [
+      {
+        text: "",
+        prefix: "",
+        children: [
+          {
+            icon:"mdi:paint-outline",
+            text:'数字艺术馆',
+            link:"https://www.useum.org/"
+          },  {
+            icon:"fluent-emoji-high-contrast:paintbrush",
+            text:'光影绘画',
+            link:"http://weavesilk.com/"
+          }
         ],
       },
     ],
