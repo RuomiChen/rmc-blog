@@ -16,10 +16,38 @@
 .vp-dropdown-title {
        padding: 0;
 }
-.vp-icon{
-     margin-right: 20px;
+
+.vp-icon {
+       margin-right: 20px;
 }
+
 .vp-dropdown {
-    inset-inline-start:0;  
-    inset-inline-end:initial;
+       inset-inline-start: 0;
+       inset-inline-end: initial;
+}
+
+/* 小于等于 768px （常见手机屏幕宽度） */
+@media screen and (max-width: 768px) {
+       ::-webkit-scrollbar-thumb {
+              background-color: transparent;
+       }
+
+       .blog-page-wrapper {
+              padding: 0 20px;
+       }
+
+       .vp-article-item {
+              border-radius: 20px;
+              padding: 20px;
+
+              .sticky-icon {
+                     top: -10px;
+                     right: -10px;
+              }
+
+       }
+
+       .vp-breadcrumb {
+              padding-top: 1.5rem;
+       }
 }
