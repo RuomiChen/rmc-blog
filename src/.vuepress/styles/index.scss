@@ -68,9 +68,9 @@
 .vp-footer-wrapper {
        padding-inline-start: 0 !important;
        padding-inline: 0 !important;
-       padding-BLOCK: 0 !important;
-       padding: 0 25rem;
-       justify-content: space-between;
+       padding-block: 0 !important;
+       padding: 0 26rem !important;
+       justify-content: space-between !important;
 }
 
 /* 小于等于 768px （常见手机屏幕宽度） */
@@ -97,4 +97,11 @@
        .vp-breadcrumb {
               padding-top: 1.5rem;
        }
+
+       // 取消页脚内边距
+       .vp-footer-wrapper {
+              padding: 0 !important;
+       }
+
+
 }
