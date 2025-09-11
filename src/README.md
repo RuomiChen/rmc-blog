@@ -4,8 +4,8 @@ layout: Blog
 icon: house
 title: Home
 heroImage: https://avatars.githubusercontent.com/u/222743971?v=
-bgImage: /images/bg.jpg
-bgImageDark: /images/bg-dark.jpg
+bgImage: https://raw.githubusercontent.com/RuomiChen/CDN/main/uploads/bg.jpg
+bgImageDark: https://raw.githubusercontent.com/RuomiChen/CDN/main/uploads/bg-dark.jpg
 bgImageStyle:
   background-attachment: fixed
 heroText: RuomiChen
