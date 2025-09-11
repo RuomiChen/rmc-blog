@@ -61,9 +61,18 @@
        font-weight: 500;
 }
 
-.vp-navbar-end{
+.vp-navbar-end {
        gap: 6px;
 }
+
+.vp-footer-wrapper {
+       padding-inline-start: 0 !important;
+       padding-inline: 0 !important;
+       padding-BLOCK: 0 !important;
+       padding: 0 25rem;
+       justify-content: space-between;
+}
+
 /* 小于等于 768px （常见手机屏幕宽度） */
 @media screen and (max-width: 768px) {
        ::-webkit-scrollbar-thumb {
