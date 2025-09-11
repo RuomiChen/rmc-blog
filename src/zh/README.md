@@ -4,8 +4,8 @@ layout: Blog
 icon: house
 title: 主页
 heroImage: https://avatars.githubusercontent.com/u/222743971?v=
-bgImage: /assets/bg.jpg
-bgImageDark: /assets/bg.jpg
+bgImage: https://raw.githubusercontent.com/RuomiChen/CDN/main/uploads/bg.jpg
+bgImageDark: https://raw.githubusercontent.com/RuomiChen/CDN/main/uploads/bg-dark.jpg
 bgImageStyle:
   background-attachment: fixed
 heroText: 若迷尘
