@@ -10,6 +10,6 @@ bgImageStyle:
   background-attachment: fixed
 heroText: 若迷尘
 heroFullScreen: true
-tagline: 戏子无名
-footer: 戏子无名
+tagline: 人人皆可为英雄
+footer: 人人皆可为英雄
 ---

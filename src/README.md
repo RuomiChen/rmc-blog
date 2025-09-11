@@ -10,6 +10,6 @@ bgImageStyle:
   background-attachment: fixed
 heroText: RuomiChen
 heroFullScreen: true
-tagline: The actor is unknown
-footer: The actor is unknown
+tagline: Everyone can be a hero
+footer: Everyone can be a hero
 ---
