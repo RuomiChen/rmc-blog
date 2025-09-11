@@ -13,12 +13,12 @@ export const zhNavbar = navbar([
         icon: "pen-to-square",
         prefix: "技术/",
         children: [
-         "1" 
+          "1", "2", "3", "4"
         ],
-      },{
-        text:"python",
+      }, {
+        text: "python",
         prefix: "python/",
-        children:[
+        children: [
           "1"
         ]
       }
@@ -37,7 +37,7 @@ export const zhNavbar = navbar([
         ],
       },
     ],
-  },{
+  }, {
     text: "乐趣",
     icon: "tdesign:joyful",
     prefix: "",
@@ -47,13 +47,13 @@ export const zhNavbar = navbar([
         prefix: "",
         children: [
           {
-            icon:"mdi:paint-outline",
-            text:'数字艺术馆',
-            link:"https://www.useum.org/"
-          },  {
-            icon:"fluent-emoji-high-contrast:paintbrush",
-            text:'光影绘画',
-            link:"http://weavesilk.com/"
+            icon: "mdi:paint-outline",
+            text: '数字艺术馆',
+            link: "https://www.useum.org/"
+          }, {
+            icon: "fluent-emoji-high-contrast:paintbrush",
+            text: '光影绘画',
+            link: "http://weavesilk.com/"
           }
         ],
       },

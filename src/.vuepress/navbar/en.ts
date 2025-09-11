@@ -11,12 +11,12 @@ export const enNavbar = navbar([
         text: "technology",
         prefix: "technology/",
         children: [
-          "1"
+          "1", "2", "3", "4"
         ],
-      },{
-        text:"python",
+      }, {
+        text: "python",
         prefix: "python/",
-        children:[
+        children: [
           "1"
         ]
       }
@@ -31,7 +31,7 @@ export const enNavbar = navbar([
         text: "",
         prefix: "",
         children: [
-          "1", "2"
+          "1"
         ],
       },
     ],

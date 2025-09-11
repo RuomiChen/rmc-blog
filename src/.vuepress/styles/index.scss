@@ -3,6 +3,7 @@
 .vp-blog-hero-image {
        border-radius: 100%;
 }
+
 // 头像圆角
 .vp-nav-logo {
        border-radius: 100%;
@@ -30,6 +31,39 @@
        inset-inline-end: initial;
 }
 
+// 侧边栏
+.vp-sidebar-links {
+       gap: 2px;
+}
+
+.vp-sidebar .vp-icon {
+       margin-inline-end: 0.5em;
+}
+
+.vp-sidebar-header>* {
+       height: 100%;
+}
+
+.vp-sidebar-links {
+       margin: 0 0 0 1.5em;
+}
+
+.vp-sidebar-links,
+.vp-sidebar-group {
+       display: flex;
+       flex-direction: column;
+       gap: 5px;
+}
+
+.vp-sidebar-link:hover {
+       background: var(--vp-c-accent-soft);
+       color: var(--vp-c-accent);
+       font-weight: 500;
+}
+
+.vp-navbar-end{
+       gap: 6px;
+}
 /* 小于等于 768px （常见手机屏幕宽度） */
 @media screen and (max-width: 768px) {
        ::-webkit-scrollbar-thumb {
