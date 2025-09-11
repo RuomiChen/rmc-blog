@@ -13,7 +13,13 @@ export const enNavbar = navbar([
         children: [
           "1"
         ],
-      },
+      },{
+        text:"python",
+        prefix: "python/",
+        children:[
+          "1"
+        ]
+      }
     ],
   },
   {
@@ -30,7 +36,7 @@ export const enNavbar = navbar([
       },
     ],
   }, {
-    text: "乐趣",
+    text: "Joyful",
     icon: "tdesign:joyful",
     prefix: "",
     children: [
@@ -40,11 +46,11 @@ export const enNavbar = navbar([
         children: [
           {
             icon: "mdi:paint-outline",
-            text: '数字艺术馆',
+            text: 'Digital Art Museum',
             link: "https://www.useum.org/"
           }, {
             icon: "fluent-emoji-high-contrast:paintbrush",
-            text: '光影绘画',
+            text: 'Light and shadow painting',
             link: "http://weavesilk.com/"
           }
         ],

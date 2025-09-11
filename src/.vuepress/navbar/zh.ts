@@ -15,7 +15,13 @@ export const zhNavbar = navbar([
         children: [
          "1" 
         ],
-      },
+      },{
+        text:"python",
+        prefix: "python/",
+        children:[
+          "1"
+        ]
+      }
     ],
   },
   {
