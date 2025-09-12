@@ -7,7 +7,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "Rmc",
+      title: "RuomiChen",
       description: "A blog for exploring and sharing knowledge by Rmc",
     },
     "/zh/": {
