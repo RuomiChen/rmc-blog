@@ -5,13 +5,13 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://ruomichen.github.io/",
-  favicon: "https://avatars.githubusercontent.com/u/222743971?v=4&size=64",
+  favicon: "https://avatars.githubusercontent.com/u/222743971?v=",
   author: {
     name: "RuomiChen",
     url: "https://mister-hope.com",
   },
 
-  logo: "https://avatars.githubusercontent.com/u/222743971?v=4&size=64",
+  logo: "https://avatars.githubusercontent.com/u/222743971?v=",
 
   repo: "RuomiChen/rmc-blog",
 
