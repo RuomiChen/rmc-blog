@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "https://avatars.githubusercontent.com/u/222743971?v=",
 
-  repo: "RuomiChen/rmc-blog",
+  // repo: "RuomiChen/rmc-blog",
 
   docsDir: "src",
 
