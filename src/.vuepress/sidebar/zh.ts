@@ -9,6 +9,16 @@ export const zhSidebar = sidebar({
       prefix: "posts/",
       children: "structure",
     }, {
+      text: "选择",
+      icon: "book",
+      prefix: "choose/",
+      children: "structure",
+    }, {
+      text: "博客与文档",
+      icon: "book",
+      prefix: "doc/",
+      children: "structure",
+    }, {
       text: "生活",
       icon: "life-ring",
       prefix: "life/",

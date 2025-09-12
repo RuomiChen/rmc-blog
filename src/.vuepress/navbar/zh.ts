@@ -23,6 +23,51 @@ export const zhNavbar = navbar([
         ]
       }
     ],
+  }, {
+    text: "选择",
+    icon: "pen-to-square",
+    prefix: "/zh/choose/",
+    children: [
+      {
+        text: "Uniapp集成",
+        icon: "pen-to-square",
+        prefix: "uniapp/",
+        children: [
+          "1", "2"
+        ],
+      }, {
+        text: "Node集成",
+        prefix: "node-back/",
+        children: [
+          "1", "2",
+        ]
+      }, {
+        text: "Vue集成",
+        prefix: "vue/",
+        children: [
+          "1",
+        ]
+      }, {
+        text: "java集成",
+        prefix: "java/",
+        children: [
+          "1",
+        ]
+      }, {
+        text: "Utils",
+        prefix: "utils/",
+        children: [
+          "1",
+        ]
+      }
+    ],
+  }, {
+    text: "文档",
+    icon: "pen-to-square",
+    prefix: "/zh/doc/",
+    children: [
+      "1"
+    ]
   },
   {
     text: "生活",
