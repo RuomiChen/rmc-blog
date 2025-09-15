@@ -75,6 +75,14 @@
 
 /* 小于等于 768px （常见手机屏幕宽度） */
 @media screen and (max-width: 768px) {
+.vp-color-mode{
+       display: flex;
+       align-items: center;
+}
+.vp-appearance-wrapper {
+justify-content: end;
+}
+
        ::-webkit-scrollbar-thumb {
               background-color: transparent;
        }
