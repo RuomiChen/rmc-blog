@@ -1,6 +1,6 @@
+import { commentPlugin } from '@vuepress/plugin-comment';
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-
 export default defineUserConfig({
   base: "/",
 
@@ -16,9 +16,16 @@ export default defineUserConfig({
       description: "若迷尘的博客",
     },
   },
+  plugins: [
+    commentPlugin({
+      provider: 'Waline', // Artalk | Giscus | Waline | Twikoo
+      // 服务商配置
+      serverURL:'https://blog-comment-4dt0pq59a-rmc-cfs-projects.vercel.app/'
+    }),
+  ],
 
   theme,
- 
+
   // Enable it with pwa
   // shouldPrefetch: false,
 });
