@@ -22,33 +22,7 @@ export const enNavbar = navbar([
       }
     ],
   },
-  {
-    text: "Lifes",
-    icon: "mdi:one-up",
-    prefix: "/life/",
-    children: [
-      {
-        text: "",
-        prefix: "",
-        children: [
-          "1"
-        ],
-      },
-    ],
-  }, {
-    text: "Lifes",
-    icon: "mdi:one-up",
-    prefix: "/life/",
-    children: [
-      {
-        text: "",
-        prefix: "",
-        children: [
-          "1"
-        ],
-      },
-    ],
-  }, {
+   {
     text: "Chooose",
     icon: "mdi:one-up",
     prefix: "/choose/",
@@ -99,6 +73,19 @@ export const enNavbar = navbar([
             ],
           },
         ],
+  }, {
+    text: "Lifes",
+    icon: "mdi:one-up",
+    prefix: "/life/",
+    children: [
+      {
+        text: "",
+        prefix: "",
+        children: [
+          "1"
+        ],
+      },
+    ],
   }, {
   text: "Joyful",
     icon: "tdesign:joyful",
