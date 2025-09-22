@@ -1,8 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
+import "dotenv/config";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-
 export default hopeTheme({
   hostname: "https://ruomichen.github.io/",
   favicon: "https://avatars.githubusercontent.com/u/222743971?v=",
@@ -260,4 +260,12 @@ export default hopeTheme({
     //   },
     // },
   },
+  encrypt:{
+    config:{
+      "/zh/info": {
+        password: process.env.PASSWORD!,
+        hint: "Get password from rmcyyyds@gmail.com",
+      }
+    }
+  }
 });
