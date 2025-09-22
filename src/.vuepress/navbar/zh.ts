@@ -108,7 +108,7 @@ export const zhNavbar = navbar([
     icon:'',
     prefix:'/zh/info/',
     children:[
-      "1"
+      "1","2"
     ]
   }
 ]);
