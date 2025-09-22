@@ -72,7 +72,7 @@ export const zhNavbar = navbar([
   {
     text: "生活",
     icon: "mdi:one-up",
-    prefix: "/life/",
+    prefix: "/zh/life/",
     children: [
       {
         text: "",
