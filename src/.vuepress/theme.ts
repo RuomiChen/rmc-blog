@@ -260,12 +260,12 @@ export default hopeTheme({
     //   },
     // },
   },
-  encrypt:{
-    config:{
-      "/zh/info": {
-        password: process.env.PASSWORD!,
-        hint: "Get password from rmcyyyds@gmail.com",
-      }
-    }
-  }
+  // encrypt:{
+  //   config:{
+  //     "/zh/info": {
+  //       password: process.env.PASSWORD!,
+  //       hint: "Get password from rmcyyyds@gmail.com",
+  //     }
+  //   }
+  // }
 });
