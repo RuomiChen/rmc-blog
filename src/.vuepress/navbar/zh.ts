@@ -103,5 +103,12 @@ export const zhNavbar = navbar([
         ],
       },
     ],
-  },
+  },{
+    text:'资料',
+    icon:'',
+    prefix:'/zh/info/',
+    children:[
+      "1"
+    ]
+  }
 ]);

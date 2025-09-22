@@ -192,11 +192,11 @@ export default hopeTheme({
         repo: 'rmc-cf/blog-comment',
         repoId: "R_kgDOO-te_Q",
         category: "Announcements",
-        categoryId: "DIC_kwDOO-te_c4CrvRo"
+        categoryId: "DIC_kwDOO-te_c4CrvRo",
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard","PDF"],
     },
 
     icon: {
