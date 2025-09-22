@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+env:
+  NODE_OPTIONS: --max_old_space_size=8192
+  PASSWORD: ${{ secrets.PASSWORD }}
+
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
@@ -41,9 +45,6 @@ jobs:
           pnpm install --frozen-lockfile
 
       - name: Build Docs
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
-          PASSWORD: ${{secrets.PASSWORD}}
         run: |-
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
