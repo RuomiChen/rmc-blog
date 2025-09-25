@@ -25,5 +25,6 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     "intro",
+    "my",
   ],
 });

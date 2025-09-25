@@ -25,5 +25,6 @@ export const enSidebar = sidebar({
       children: "structure",
     },
     "intro",
+    "my",
   ],
 });
