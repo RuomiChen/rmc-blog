@@ -52,6 +52,7 @@ export const zhNavbar = navbar([
         prefix: "java/",
         children: [
           "1",
+          "2",
         ]
       }, {
         text: "Utils",

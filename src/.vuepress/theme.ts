@@ -143,7 +143,6 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
-
     // uncomment these if you need TeX support
     // math: {
     //   // install katex before enabling it
@@ -182,7 +181,7 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-
+    
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
