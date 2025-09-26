@@ -112,6 +112,9 @@ export default hopeTheme({
 
   // These features are enabled for demo, only preserve features you need here
   markdown: {
+    highlighter: {
+      type: "prismjs",
+    },
     align: true,
     attrs: true,
     codeTabs: true,
@@ -127,7 +130,7 @@ export default hopeTheme({
     spoiler: true,
     stylize: [
       {
-        matcher: "Recommended",
+        matcher: "",
         replacer: ({ tag }) => {
           if (tag === "em")
             return {
@@ -181,21 +184,21 @@ export default hopeTheme({
 
   plugins: {
     blog: true,
-    
+
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
     comment: {
       provider: "Giscus",
       comment: true,
-        repo: 'rmc-cf/blog-comment',
-        repoId: "R_kgDOO-te_Q",
-        category: "Announcements",
-        categoryId: "DIC_kwDOO-te_c4CrvRo",
+      repo: 'rmc-cf/blog-comment',
+      repoId: "R_kgDOO-te_Q",
+      category: "Announcements",
+      categoryId: "DIC_kwDOO-te_c4CrvRo",
     },
 
     components: {
-      components: ["Badge", "VPCard","PDF"],
+      components: ["Badge", "VPCard", "PDF"],
     },
 
     icon: {
@@ -259,12 +262,16 @@ export default hopeTheme({
     //   },
     // },
   },
-  // encrypt:{
-  //   config:{
-  //     "/zh/info": {
-  //       password: process.env.PASSWORD!,
-  //       hint: "Get password from rmcyyyds@gmail.com",
-  //     }
-  //   }
-  // }
+  encrypt: {
+    config: {
+      "/zh/choose/java/2.html": {
+        password: "5907",
+        hint: "详细请关注微信公众号：懈怠,回复：LangChain4j",
+      },
+      "/choose/java/2.html": {
+        password: "5907",
+        hint: "For more details, please follow the wechat official account: LangChain4j and reply: LangChain4j"
+      }
+    }
+  }
 });

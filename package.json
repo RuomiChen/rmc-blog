@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.23",
     "@vuepress/plugin-comment": "2.0.0-rc.112",
+    "@vuepress/plugin-prismjs": "2.0.0-rc.112",
     "@vuepress/plugin-search": "2.0.0-rc.112",
     "@waline/client": "^3.6.0",
     "sass-embedded": "^1.89.1",
