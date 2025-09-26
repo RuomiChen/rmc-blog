@@ -111,5 +111,6 @@ export const zhNavbar = navbar([
     children:[
       "1","2"
     ]
-  }
+  },
+  "/zh/my"
 ]);

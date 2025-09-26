@@ -107,5 +107,6 @@ export const enNavbar = navbar([
             ],
           },
         ],
-  },
+  },,
+  "my"
 ]);
